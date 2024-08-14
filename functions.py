@@ -27,7 +27,7 @@ def load_products():
         return {"produtos": {}}
 
 def save_products(products):
-    with open('produtos.json', 'w') as file):
+    with open('produtos.json', 'w') as file:
         json.dump(products, file, indent=4)
 
 # Funções do administrador
